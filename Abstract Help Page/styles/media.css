@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  header {
+    padding: 1.63em 1em;
+  }
+  .search-section {
+    padding: 5rem 1.4rem 7rem;
+  }
+  .search-section h1 {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .second-section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 6rem 4rem;
+  }
+  .left {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .right {
+    max-width: 100%;
+  }
+  footer {
+    padding: 2rem 0.1rem;
+
+    padding-bottom: 13.8rem;
+  }
+
+  .copyright {
+    bottom: 3.5rem;
+    left: 2rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .search-section h1 {
+    font-size: 3.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 1.63em 7em;
+  }
+  header .header-buttons {
+    display: block;
+  }
+  header .hamburger-buttons {
+    display: none;
+  }
+  .footer-cards {
+    flex-wrap: nowrap;
+  }
+}
