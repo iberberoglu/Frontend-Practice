@@ -7,7 +7,8 @@ p::selection {
   color: white;
 }
 header {
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   background-color: white;
   padding: 1.4em 2.6em;
 }
@@ -35,6 +36,23 @@ header nav .nav_left {
   display: flex;
   align-items: center;
 }
+.nav_left .nav_menu {
+  font-size: 1.2em;
+  display: none;
+}
+.dropdown_svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_left .dropdown_svg svg {
+  width: 13px;
+  height: 100%;
+  margin-left: 0.5rem;
+  position: relative;
+  bottom: -1px;
+  display: none;
+}
 header nav .left_list {
   display: flex;
   align-items: center;
@@ -55,7 +73,8 @@ header nav .right_list .register_btn {
   font-size: 1rem;
 }
 .menu {
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   background-color: white;
   margin-top: 0.2em;
   padding: 1.4em 2.6em;
@@ -72,7 +91,8 @@ header nav .right_list .register_btn {
   color: #ff764d;
 }
 .first_section {
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   background-color: white;
   position: relative;
   display: flex;
@@ -101,7 +121,8 @@ header nav .right_list .register_btn {
   transform: translate(-50%, -50%);
 }
 .p_section {
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   padding-top: 8rem;
   padding-bottom: 8rem;
   background-color: white;
@@ -128,16 +149,21 @@ header nav .right_list .register_btn {
 .second_section {
   position: relative;
   background-color: white;
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   height: 96vh;
 }
 .second_section_right_yellow {
   position: absolute;
   background-color: #fbffa7;
-  width: 933px;
+  width: 60%;
+
   top: 0;
   bottom: 0;
   right: 0;
+}
+.second_section_flex_container img {
+  width: 40%;
 }
 .second_section_flex_container {
   display: flex;
@@ -152,7 +178,8 @@ header nav .right_list .register_btn {
   display: flex;
   justify-content: center;
   background-color: white;
-  margin: 0 10rem;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 .youtube_video_section_container {
   width: 50%;
@@ -174,7 +201,8 @@ header nav .right_list .register_btn {
 .third_section {
   position: relative;
   background-color: white;
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   height: 1200px;
 }
 .third_section_left_green {
@@ -204,20 +232,21 @@ header nav .right_list .register_btn {
   width: 533px;
 }
 .third_section_right {
-  flex: 1;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   height: 100%;
+  flex: 1;
 }
 .third_section_right img {
   width: 84%;
 }
 .fourth_section {
   background-color: white;
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   position: relative;
 }
 
@@ -225,10 +254,12 @@ header nav .right_list .register_btn {
   width: 83%;
   display: block;
   margin: 0 auto;
+  max-width: 1600px;
 }
 .fifth_section {
   background-color: white;
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   height: 97vh;
   position: relative;
 }
@@ -237,6 +268,7 @@ header nav .right_list .register_btn {
   height: 100%;
   width: 933px;
   margin: 0 auto;
+  max-width: 1600px;
 }
 .fifth_section_img_container {
   position: absolute;
@@ -252,11 +284,11 @@ header nav .right_list .register_btn {
   flex: 1;
 }
 .fifth_section_left_container img {
-  width: 533px;
+  width: 55%;
   margin-left: 8.5rem;
 }
 .fifth_section_right_container {
-  width: 666px;
+  width: 40%;
 }
 
 .fifth_section_right_container img {
@@ -264,18 +296,26 @@ header nav .right_list .register_btn {
 }
 .sixth_section {
   background-color: white;
-  margin: 0 10em;
+  margin: 0 auto;
+  max-width: 1600px;
   margin-bottom: 0.2em;
   padding-bottom: 133px;
 }
 .sixth_section_container {
   display: flex;
   margin: 0 auto;
+  max-width: 1600px;
   width: 83%;
 }
-.sixth_section_container img {
+
+.sixth_section_first_image {
   width: 50%;
+  object-fit: cover;
 }
+.sixth_section_second_image {
+  display: none;
+}
+
 .sixth_section_container_right {
   background-color: #b1c5ff;
   display: flex;
@@ -300,12 +340,13 @@ header nav .right_list .register_btn {
 }
 
 footer {
-  margin: 0 10rem;
+  margin: 0 auto;
+  max-width: 1600px;
   background-color: white;
 }
 footer a {
   color: black;
-  font-size: 1.25rem;
+
   font-weight: 300;
   line-height: 1.5;
 }
