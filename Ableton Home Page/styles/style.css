@@ -80,11 +80,23 @@ header nav .right_list .register_btn {
   display: flex;
   justify-content: center;
 }
-.first_section img {
+.bg_img {
+  height: 86vh;
+
+  width: 84%;
+  background-image: url(https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: white;
+}
+
+/* .first_section img {
   width: 84%;
   height: 86vh;
   object-fit: cover;
-}
+} */
 .first_section svg {
   position: absolute;
   top: 50%;
