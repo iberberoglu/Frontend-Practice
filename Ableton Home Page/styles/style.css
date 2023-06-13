@@ -298,3 +298,143 @@ header nav .right_list .register_btn {
   color: blue;
   font-size: 1.6em;
 }
+
+footer {
+  margin: 0 10rem;
+  background-color: white;
+}
+footer a {
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.footer_container {
+  padding: 8rem;
+  margin-bottom: 1.5rem;
+}
+footer svg {
+  width: 40px;
+}
+footer .facebook svg {
+  background-color: #3477f2;
+}
+footer .twitter svg {
+  background-color: #1da1f2;
+}
+footer .youtube svg {
+  background-color: #ff001d;
+}
+footer .instagram svg {
+  background-color: #f77737;
+}
+.footer_title {
+  font-size: 3.7em;
+  margin-bottom: 5.3rem;
+}
+.footer_grid {
+  display: grid;
+  grid-template-columns: 30% 30% auto;
+}
+.footer_grid .grid_border {
+  margin-bottom: 5.3rem;
+}
+.footer_grid_bold_text {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+.footer_grid .one ul:first-child {
+  margin-bottom: 0.8rem;
+}
+.footer_grid a {
+  font-size: 1.25rem;
+}
+.footer_grid .arrow::after {
+  content: "\00a0›";
+}
+.footer_grid .three p:first-child {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+.footer_grid .three p:nth-child(2) {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+.form_flex {
+  display: flex;
+  align-content: center;
+  margin-top: 1rem;
+}
+.footer_grid .three input[type="email"] {
+  flex: 1;
+  display: inline-block;
+  font-size: 1em;
+  background-color: #eee;
+  border: none;
+  padding: 0.75rem;
+}
+.footer_grid .three input::placeholder {
+  color: rgb(167, 165, 165);
+}
+.footer_grid .three input[type="submit"] {
+  width: 25%;
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+  background-color: blue;
+  border: none;
+}
+.select_flex {
+  display: flex;
+}
+.footer_grid .five select {
+  border: none;
+  padding: 0.4rem;
+  background-color: #eee;
+  width: 100%;
+  appearance: none;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.footer_grid .five .select_left {
+  width: 32%;
+  margin-right: 0.2rem;
+  position: relative;
+}
+.footer_grid .five .select_right {
+  width: 50%;
+  position: relative;
+}
+.footer_grid .select_flex svg {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  width: 0.9rem;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  pointer-events: none;
+}
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_flex_left {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+.footer_flex a,
+.footer_flex span {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+.footer_flex_right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
